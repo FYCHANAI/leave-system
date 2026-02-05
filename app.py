@@ -20,7 +20,7 @@ def save_data(df):
 
 def main():
     st.set_page_config(page_title="Employee Leave Management System", layout="wide")
-    st.title("Employee Leave Management System")
+    st.title("NTAM Employee Leave Management System")
 
     # Sidebar Navigation
     menu = ["Employee Application", "Manager Review"]
@@ -91,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
